@@ -30,6 +30,10 @@ public class Controller {
         game.placeOnBoard(door, 1, 5);
         game.placeOnBoard(player, 5, 5);
 
+
+        System.out.println(game.displayBoard());
+
+        game.removeFromBoard(2,2);
         System.out.println(game.displayBoard());
 
     }

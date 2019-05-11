@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Artifact {
 
-    private List<String> commands;
+    private List<String > commands;
 
 
     @Override
