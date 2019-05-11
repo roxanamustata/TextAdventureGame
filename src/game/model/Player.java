@@ -40,4 +40,8 @@ public class Player implements ILocalizable {
         this.vertical = vertical;
     }
 
+    public String getArtifacts(){
+        return artifacts.toString();
+    }
+
 }

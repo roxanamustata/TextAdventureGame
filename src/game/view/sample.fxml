@@ -15,7 +15,7 @@
             <Pane layoutX="175.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <Label layoutX="36.0" layoutY="25.0" text="Command" />
-                  <TextField fx:id="txtFieldCommand" layoutX="36.0" layoutY="52.0" />
+                  <TextField fx:id="txtFieldCommand" layoutX="36.0" layoutY="52.0" onKeyReleased="#processCommand" />
                   <Label layoutX="36.0" layoutY="103.0" prefHeight="17.0" prefWidth="80.0" text="Output" />
                   <ScrollPane layoutX="36.0" layoutY="127.0">
                      <content>
